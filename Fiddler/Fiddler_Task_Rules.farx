@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AutoResponder LastSave="2021-07-19T22:53:41.1953756+06:00" FiddlerVersion="5.0.1.0">
+  <State Enabled="true" AcceptAllConnects="false" Fallthrough="true" UseLatency="false">
+    <ResponseRule Match="{&quot;matchCondition&quot;:1,&quot;matches&quot;:[&quot;^^NA==*Y29udGFpbnM=*aHR0cDovLzE2Mi41NS4yMjAuNzI6NTAwNS9nZXRfbWV0aG9k&quot;]}" Action="[&quot;^^Nw==*bmFtZQ==*c2V0**S29uc3RhbnRpbg==&quot;,&quot;^^Nw==*YWdl*c2V0**MzM=&quot;]" Comment="Ex_1" Enabled="true" />
+    <ResponseRule Match="{&quot;matchCondition&quot;:1,&quot;matches&quot;:[&quot;^^NA==*Y29udGFpbnM=*aHR0cDovLzE2Mi41NS4yMjAuNzI6NTAwNS91c2VyX2luZm9fMw==&quot;]}" Action="[&quot;^^NQ==**c2V0*MjAwMA==*eyAgICJhZ2UiOiAiMjQiLCAgICJmYW1pbHkiOiB7ICAgICAiY2hpbGRyZW4iOiBbICAgICAgIFsgICAgICAgICAiQWxleCIsICAgICAgICAgMjQgICAgICAgXSwgICAgICAgWyAgICAgICAgICJLYXRlIiwgICAgICAgICAxMiAgICAgICBdICAgICBdLCAgICAgInVfc2FsYXJ5XzFfNV95ZWFyIjogNDAwICAgfSwgICAibmFtZSI6ICJBbGVrc2V5IiwgICAic2FsYXJ5IjogNTAwIH0=&quot;]" Comment="Ex_2" Enabled="true" />
+    <ResponseRule Match="{&quot;matchCondition&quot;:1,&quot;matches&quot;:[&quot;^^NA==*Y29udGFpbnM=*aHR0cDovLzE2Mi41NS4yMjAuNzI6NTAwNS9vYmplY3RfaW5mb18x&quot;]}" Action="[&quot;^^NQ==**cmVwbGFjZQ==*QWxla3NleQ==*U2Vyag==&quot;,&quot;^^NQ==**cmVwbGFjZQ==*MC43OA==*Nzg=&quot;,&quot;^^NQ==**cmVwbGFjZQ==*MTYyLjU=*NTM=&quot;]" Comment="Ex_3" Enabled="true" />
+    <ResponseRule Match="{&quot;matchCondition&quot;:1,&quot;matches&quot;:[&quot;^^NA==*Y29udGFpbnM=*aHR0cDovLzE2Mi41NS4yMjAuNzI6NTAwNS9vYmplY3RfaW5mb18z&quot;]}" Action="[&quot;^^Nw==*bmFtZQ==*cmVtb3Zl**&quot;,&quot;^^Nw==*YWdl*cmVtb3Zl**&quot;,&quot;^^Nw==*c2FsYXJ5*cmVtb3Zl**&quot;]" Comment="Ex_4" Enabled="true" />
+    <ResponseRule Match="{&quot;matchCondition&quot;:1,&quot;matches&quot;:[&quot;^^NA==*Y29udGFpbnM=*aHR0cDovLzE2Mi41NS4yMjAuNzI6NTAwNS91c2VyX2luZm9fMg==&quot;]}" Action="[&quot;^^NQ==**cmVwbGFjZQ==*cWFfc2FsYXJ5X2FmdGVyXzEuNV95ZWFy*cWFfc2FsYXJ5X2FmdGVyXzEuNV9tb250aA==&quot;]" Comment="Ex_5" Enabled="true" />
+  </State>
+</AutoResponder>
