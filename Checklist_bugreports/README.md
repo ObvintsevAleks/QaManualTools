@@ -1,10 +1,6 @@
-**Example course test task; project QA documentation; Currency/Capital example reports; simaland test task**
+**Пример QA документации в рамках заданий по курсу, QA документация в рамках работы с проектом на курсе;  QA документация по стажировке в рамках курса Currency/Capital - без доступа к Jira, yandex tracker, confluence и тд; решение тестового задания от simaland**
 
-Task Check-list: https://docs.google.com/spreadsheets/d/1BM1tTZ_rsx38232Rzp_dLTYRICJOQryc31Wj5hPczyM/edit?usp=sharing
-
-Task Bug-reports: https://docs.google.com/document/d/1TN-aeeo99eJJMAehmhZS4XrcJHEN5twJCDOtthbqdos/edit?usp=sharing
-
-Course project QA Documentation: 
+Документация в рамках проекта: 
 
 project_Screen_map: https://drive.google.com/file/d/1o-IxBB8DjPi55rzlMjDdSv9dmCE59R7q/view?usp=sharing
 
@@ -20,4 +16,6 @@ Localisation testing, example reports, Capital/Currency, version - prod. Capital
 
 Currency : https://drive.google.com/file/d/1VdGcy9F-zbw4gwEkIqnCqf8oityORuad/view?usp=sharing
 
+Задание по чек-листам на курсе: https://docs.google.com/spreadsheets/d/1BM1tTZ_rsx38232Rzp_dLTYRICJOQryc31Wj5hPczyM/edit?usp=sharing
 
+Задание по багам на курсе: https://docs.google.com/document/d/1TN-aeeo99eJJMAehmhZS4XrcJHEN5twJCDOtthbqdos/edit?usp=sharing
