@@ -1,0 +1,8 @@
+!#/bin/bash
+cd ./moyaPapka
+mkdir papka33 papka34 papka35
+cd ./papka33
+touch file21.txt file22.txt file23.txt file24.json file25.json
+mkdir papka21 papka22 papka23
+ls -lah
+mv file21.txt file25.json papka21
