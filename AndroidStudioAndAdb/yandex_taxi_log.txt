@@ -1,0 +1,310 @@
+07-11 21:30:23.755: I/WifiScanRequestProxy(1632): Scan request from ru.yandex.taxi throttled
+07-11 21:30:26.965: W/ru.yandex.taxi(18149): Couldn't lock the profile file /data/user/0/ru.yandex.taxi/app_working_18149/oat/AGPWygjeE.18149.dex.cur.prof: Failed to open file '/data/user/0/ru.yandex.taxi/app_working_18149/oat/AGPWygjeE.18149.dex.cur.prof': No such file or directory
+07-11 21:30:26.965: W/ru.yandex.taxi(18149): Could not forcefully load profile /data/user/0/ru.yandex.taxi/app_working_18149/oat/AGPWygjeE.18149.dex.cur.prof
+07-11 21:30:26.967: W/ru.yandex.taxi(18149): Couldn't lock the profile file /data/user/0/ru.yandex.taxi/app_working_18149/oat/AWTIWpRyuiUKmkAaksFsiZL.18149.dex.cur.prof: Failed to open file '/data/user/0/ru.yandex.taxi/app_working_18149/oat/AWTIWpRyuiUKmkAaksFsiZL.18149.dex.cur.prof': No such file or directory
+07-11 21:30:26.967: W/ru.yandex.taxi(18149): Could not forcefully load profile /data/user/0/ru.yandex.taxi/app_working_18149/oat/AWTIWpRyuiUKmkAaksFsiZL.18149.dex.cur.prof
+07-11 21:30:26.969: W/ru.yandex.taxi(18149): Couldn't lock the profile file /data/user/0/ru.yandex.taxi/app_working_18149/oat/RkaevJccJkBRaygWxRWTugx.18149.dex.cur.prof: Failed to open file '/data/user/0/ru.yandex.taxi/app_working_18149/oat/RkaevJccJkBRaygWxRWTugx.18149.dex.cur.prof': No such file or directory
+07-11 21:30:26.969: W/ru.yandex.taxi(18149): Could not forcefully load profile /data/user/0/ru.yandex.taxi/app_working_18149/oat/RkaevJccJkBRaygWxRWTugx.18149.dex.cur.prof
+07-11 21:30:30.099: E/ActivityManager(1632):   107% 18149/ru.yandex.taxi: 87% user + 19% kernel / faults: 34618 minor 2 major
+07-11 21:30:30.099: E/ActivityManager(1632):   1.1% 18204/ru.yandex.taxi:Metrica: 0.6% user + 0.4% kernel / faults: 987 minor
+07-11 21:30:38.937: I/WifiScanRequestProxy(1632): Scan request from ru.yandex.taxi throttled
+07-11 21:30:42.287: W/ProcessStats(1632): Tracking association SourceState{fdca76d ru.yandex.taxi/10265 Top #40083} whose proc state 1 is better than process ProcessState{481f3cf com.google.android.gms/10188 pkg=com.google.android.gms} proc state 2 (22 skipped)
+07-11 21:30:42.565: D/LocationManagerService(1632): request 9d0e5b4 passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 background)
+07-11 21:30:42.597: W/ndroid.systemu(2378): resources.arsc in APK '/data/app/ru.yandex.taxi-OA4CkixXj12weKoterC_LA==/base.apk' is compressed.
+07-11 21:30:43.078: D/PowerCheckerService(5644): foreground, uid = 10265, app = ru.yandex.taxi
+07-11 21:30:44.930: D/PowerCheckerService(5644): foreground, uid = 10265, app = ru.yandex.taxi
+07-11 21:30:48.869: D/LocationManagerService(1632): request 5e96054 passive Request[POWER_NONE passive fastest=0] from ru.yandex.taxi(10265 foreground)
+07-11 21:30:48.906: D/LocationManagerService(1632): request 1af20f2 passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 foreground)
+07-11 21:30:48.936: D/LocationManagerService(1632): request 1af20f2 passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 foreground)
+07-11 21:30:49.203: D/LocationManagerService(1632): request 1af20f2 passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 foreground)
+07-11 21:30:49.212: I/SensorService(1632): check list, getPackageName  ru.yandex.taxi.provider.n4
+07-11 21:30:49.213: D/LocationManagerService(1632): request 1af20f2 passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 foreground)
+07-11 21:30:49.215: I/SensorService(1632): check list, getPackageName  ru.yandex.taxi.provider.n4
+07-11 21:30:49.248: D/LocationManagerService(1632): request 1af20f2 passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 foreground)
+07-11 21:30:49.284: I/MiuiKnockGestureService(1632): focus window:ru.yandex.taxi
+07-11 21:30:49.288: W/View(18149): requestLayout() improperly called by ru.yandex.taxi.widget.ShimmeringRobotoTextView{7b28216 V.ED..... ......ID 0,72-328,127 #7f0a0102 app:id/bottom} during layout: running second layout pass
+07-11 21:30:49.302: I/Timeline(1632): Timeline: Activity_windows_visible id: ActivityRecord{9bf02dc u0 ru.yandex.taxi/.activity.MainActivity t4405} time:4108173
+07-11 21:30:49.334: D/LocationManagerService(1632): request 1af20f2 passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 foreground)
+07-11 21:30:49.345: D/LocationManagerService(1632): request 1af20f2 passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 foreground)
+07-11 21:30:49.355: D/LocationManagerService(1632): request 1af20f2 passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 foreground)
+07-11 21:30:49.359: I/WifiScanRequestProxy(1632): Scan request from ru.yandex.taxi throttled
+07-11 21:30:49.420: W/View(18149): requestLayout() improperly called by ru.yandex.taxi.widget.ShimmeringRobotoTextView{7b28216 V.ED..... ......ID 7,72-221,127 #7f0a0102 app:id/bottom} during layout: running second layout pass
+07-11 21:30:49.445: D/LocationManagerService(1632): request 1af20f2 passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 foreground)
+07-11 21:30:49.569: D/ForceDarkHelper(18149): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@e0bbbfb
+07-11 21:30:49.713: W/View(18149): requestLayout() improperly called by ru.yandex.taxi.widget.ShimmeringRobotoTextView{7b28216 V.ED..... ......ID 0,72-328,127 #7f0a0102 app:id/bottom} during layout: running second layout pass
+07-11 21:30:49.727: D/LocationManagerService(1632): request 1af20f2 passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 foreground)
+07-11 21:30:49.734: D/LocationManagerService(1632): request 1af20f2 passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 foreground)
+07-11 21:30:49.741: D/ForceDarkHelper(18149): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@e0bbbfb
+07-11 21:30:49.745: I/chatty(18149): uid=10265(ru.yandex.taxi) identical 11 lines
+07-11 21:30:49.745: D/ForceDarkHelper(18149): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@e0bbbfb
+07-11 21:30:49.748: D/LocationManagerService(1632): request 1af20f2 passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 foreground)
+07-11 21:30:49.748: D/ForceDarkHelper(18149): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@e0bbbfb
+07-11 21:30:49.750: I/chatty(18149): uid=10265(ru.yandex.taxi) identical 9 lines
+07-11 21:30:49.750: D/ForceDarkHelper(18149): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@e0bbbfb
+07-11 21:30:49.756: D/LocationManagerService(1632): request 1af20f2 passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 foreground)
+07-11 21:30:49.777: D/LocationManagerService(1632): request 1af20f2 passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 foreground)
+07-11 21:30:49.788: D/ForceDarkHelper(18149): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@e0bbbfb
+07-11 21:30:50.035: D/LocationManagerService(1632): request 1af20f2 passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 foreground)
+07-11 21:30:50.162: I/chatty(18149): uid=10265(ru.yandex.taxi) identical 1 line
+07-11 21:30:50.418: E/ActivityManager(1632):   73% 18149/ru.yandex.taxi: 57% user + 15% kernel / faults: 13518 minor 1 major
+07-11 21:30:50.418: E/ActivityManager(1632):   3.2% 18204/ru.yandex.taxi:Metrica: 2% user + 1.1% kernel / faults: 2702 minor
+07-11 21:30:52.875: I/GST(10863): forePkg: com.mi.android.globallauncher, preForePkg: ru.yandex.taxi
+07-11 21:30:52.886: I/ProcessMonitor(4466): onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.mi.android.globallauncher', mForegroundUid=10077, mForegroundPid=2802, mLastForegroundPackageName='ru.yandex.taxi', mLastForegroundUid=10265, mLastForegroundPid=18149, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+07-11 21:30:52.886: I/GameBoosterService(4466): onForegroundInfoChanged: Cur=com.mi.android.globallauncher	 last=ru.yandex.taxi
+07-11 21:30:52.888: D/GameBoosterService(4466): onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.mi.android.globallauncher', mForegroundUid=10077, mForegroundPid=2802, mLastForegroundPackageName='ru.yandex.taxi', mLastForegroundUid=10265, mLastForegroundPid=18149, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+07-11 21:30:53.053: D/IconCustomizer(2378): Generate customized icon for ru.yandex.taxi.png
+07-11 21:30:53.347: D/LocationManagerService(1632): request 1af20f2 passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 background)
+07-11 21:30:53.969: D/LocationManagerService(1632): request 1af20f2 passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 background)
+07-11 21:30:56.406: D/WindowProcessUtils(1632): remove task: TaskRecord{c1e3a9e #4405 A=ru.yandex.taxi U=0 StackId=21 sz=1}
+07-11 21:30:56.423: I/ProcessManager(1632): SwipeUpClean: kill ru.yandex.taxi Adj=905 State=20
+07-11 21:30:56.424: I/ActivityManager(1632): Killing 18149:ru.yandex.taxi/u0a265 (adj 905): SwipeUpClean
+07-11 21:30:56.426: I/ProcessManager(1632): SwipeUpClean: kill ru.yandex.taxi:Metrica Adj=905 State=20
+07-11 21:30:56.426: I/ActivityManager(1632): Killing 18204:ru.yandex.taxi:Metrica/u0a265 (adj 905): SwipeUpClean
+07-11 21:30:56.427: I/ProcessManager(1632): SwipeUpClean: kill ru.yandex.taxi:passport Adj=700 State=16
+07-11 21:30:56.428: I/ActivityManager(1632): Killing 19722:ru.yandex.taxi:passport/u0a265 (adj 700): SwipeUpClean
+07-11 21:30:56.485: I/AutoStartManagerService(1632): MIUILOG- Reject RestartService packageName :ru.yandex.taxi uid : 10265
+07-11 21:30:56.683: W/InputDispatcher(1632): channel '5909a1d ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+07-11 21:30:56.683: E/InputDispatcher(1632): channel '5909a1d ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+07-11 21:30:56.686: I/WindowManager(1632): WIN DEATH: Window{5909a1d u0 ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity}
+07-11 21:30:56.686: W/InputDispatcher(1632): Attempted to unregister already unregistered input channel '5909a1d ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity (server)'
+07-11 21:31:06.948: I/ActivityTaskManager(1632): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=ru.yandex.taxi/.activity.StartActivity bnds=[60,1433][228,1601] (has extras)} from uid 10077
+07-11 21:31:07.005: D/OemNetd(693): setPidForPackage: packageName=ru.yandex.taxi, pid=22013, pid=10265
+07-11 21:31:07.005: I/ActivityManager(1632): Start proc 22013:ru.yandex.taxi/u0a265 for activity {ru.yandex.taxi/ru.yandex.taxi.activity.StartActivity} caller=com.mi.android.globallauncher
+07-11 21:31:07.040: I/ProcessMonitor(4466): onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='ru.yandex.taxi', mForegroundUid=10265, mForegroundPid=22013, mLastForegroundPackageName='com.mi.android.globallauncher', mLastForegroundUid=10077, mLastForegroundPid=2802, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+07-11 21:31:07.040: I/GameBoosterService(4466): onForegroundInfoChanged: Cur=ru.yandex.taxi	 last=com.mi.android.globallauncher
+07-11 21:31:07.041: I/GST(10863): forePkg: ru.yandex.taxi, preForePkg: com.mi.android.globallauncher
+07-11 21:31:07.042: D/GameBoosterService(4466): onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='ru.yandex.taxi', mForegroundUid=10265, mForegroundPid=22013, mLastForegroundPackageName='com.mi.android.globallauncher', mLastForegroundUid=10077, mLastForegroundPid=2802, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+07-11 21:31:07.091: W/ru.yandex.taxi(22013): resources.arsc in APK '/data/app/ru.yandex.taxi-OA4CkixXj12weKoterC_LA==/base.apk' is compressed.
+07-11 21:31:07.127: W/ru.yandex.taxi(22013): type=1400 audit(0.0:8365): avc: granted { execute } for path="/data/data/ru.yandex.taxi/cache/sGqIIsvtkBywvkIKTDh.so" dev="sda16" ino=246681 scontext=u:r:untrusted_app:s0:c9,c257,c512,c768 tcontext=u:object_r:app_data_file:s0:c9,c257,c512,c768 tclass=file
+07-11 21:31:07.489: D/PackageManager.DexOptimizer(1632): Running dexopt on: /data/user/0/ru.yandex.taxi/app_working_22013/AGPWygjeE.22013.dex pkg=ru.yandex.taxi isa=[arm64] reason=bg-dexopt dexoptFlags=boot_complete,public,secondary,storage_ce,enable_hidden_api_checks target-filter=quicken class-loader-context=PCL[]
+07-11 21:31:07.545: D/installd(1229): Processing secondary dex path /data/user/0/ru.yandex.taxi/app_working_22013/AGPWygjeE.22013.dex
+07-11 21:31:07.550: D/installd(1229): Processed secondary dex file /data/user/0/ru.yandex.taxi/app_working_22013/AGPWygjeE.22013.dex result=205
+07-11 21:31:07.550: D/PackageManager.DexOptimizer(1632): Running dexopt on: /data/user/0/ru.yandex.taxi/app_working_22013/AWTIWpRyuiUKmkAaksFsiZL.22013.dex pkg=ru.yandex.taxi isa=[arm64] reason=bg-dexopt dexoptFlags=boot_complete,public,secondary,storage_ce,enable_hidden_api_checks target-filter=quicken class-loader-context=PCL[/data/user/0/ru.yandex.taxi/app_working_22013/AGPWygjeE.22013.dex]
+07-11 21:31:07.551: D/installd(1229): Getting dex paths for context PCL[/data/user/0/ru.yandex.taxi/app_working_22013/AGPWygjeE.22013.dex]
+07-11 21:31:07.573: I/FA(22013):   adb shell setprop debug.firebase.analytics.app ru.yandex.taxi
+07-11 21:31:07.579: D/installd(1229): Processing secondary dex path /data/user/0/ru.yandex.taxi/app_working_22013/AWTIWpRyuiUKmkAaksFsiZL.22013.dex
+07-11 21:31:07.585: D/installd(1229): Processed secondary dex file /data/user/0/ru.yandex.taxi/app_working_22013/AWTIWpRyuiUKmkAaksFsiZL.22013.dex result=205
+07-11 21:31:07.586: D/PackageManager.DexOptimizer(1632): Running dexopt on: /data/user/0/ru.yandex.taxi/app_working_22013/RkaevJccJkBRaygWxRWTugx.22013.dex pkg=ru.yandex.taxi isa=[arm64] reason=bg-dexopt dexoptFlags=boot_complete,public,secondary,storage_ce,enable_hidden_api_checks target-filter=quicken class-loader-context=PCL[/data/user/0/ru.yandex.taxi/app_working_22013/AGPWygjeE.22013.dex:/data/user/0/ru.yandex.taxi/app_working_22013/AWTIWpRyuiUKmkAaksFsiZL.22013.dex]
+07-11 21:31:07.586: D/installd(1229): Getting dex paths for context PCL[/data/user/0/ru.yandex.taxi/app_working_22013/AGPWygjeE.22013.dex:/data/user/0/ru.yandex.taxi/app_working_22013/AWTIWpRyuiUKmkAaksFsiZL.22013.dex]
+07-11 21:31:07.614: D/installd(1229): Processing secondary dex path /data/user/0/ru.yandex.taxi/app_working_22013/RkaevJccJkBRaygWxRWTugx.22013.dex
+07-11 21:31:07.624: D/installd(1229): Processed secondary dex file /data/user/0/ru.yandex.taxi/app_working_22013/RkaevJccJkBRaygWxRWTugx.22013.dex result=205
+07-11 21:31:07.642: D/OemNetd(693): setPidForPackage: packageName=ru.yandex.taxi, pid=22118, pid=10265
+07-11 21:31:07.642: I/ActivityManager(1632): Start proc 22118:ru.yandex.taxi:Metrica/u0a265 for service {ru.yandex.taxi/com.yandex.metrica.MetricaService} caller=ru.yandex.taxi
+07-11 21:31:07.660: I/ActivityTaskManager(1632): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=ru.yandex.taxi/.activity.MainActivity bnds=[60,1433][228,1601] (has extras)} from uid 10265
+07-11 21:31:07.677: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.StartActivity@a6ea8a7
+07-11 21:31:07.682: W/Looper(22013): Slow Looper main: Activity ru.yandex.taxi/.activity.StartActivity is 498ms late (wall=126ms running=0ms ClientTransaction{ callbacks=[android.app.servertransaction.LaunchActivityItem] lifecycleRequest=android.app.servertransaction.ResumeActivityItem }) because of 1 msg, msg 1 took 512ms (seq=2 late=8ms h=android.app.ActivityThread$H w=110)
+07-11 21:31:07.682: W/Looper(22013): Slow Looper main: Activity ru.yandex.taxi/.activity.StartActivity is 624ms late (wall=1ms running=0ms ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] }) because of 2 msg, msg 1 took 512ms (seq=2 late=8ms h=android.app.ActivityThread$H w=110), msg 2 took 126ms (seq=3 late=498ms h=android.app.ActivityThread$H w=159)
+07-11 21:31:07.684: I/ActivityTaskManager(1632): The Process ru.yandex.taxi Already Exists in BG. So sending its PID: 22013
+07-11 21:31:07.678: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.StartActivity@a6ea8a7
+07-11 21:31:07.710: W/ex.taxi:Metric(22118): resources.arsc in APK '/data/app/ru.yandex.taxi-OA4CkixXj12weKoterC_LA==/base.apk' is compressed.
+07-11 21:31:07.765: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.766: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.768: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.769: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 4 lines
+07-11 21:31:07.770: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.771: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.783: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.822: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 63 lines
+07-11 21:31:07.823: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.823: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.830: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 39 lines
+07-11 21:31:07.831: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.831: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.832: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 3 lines
+07-11 21:31:07.832: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.832: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.832: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 3 lines
+07-11 21:31:07.832: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.833: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.838: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 24 lines
+07-11 21:31:07.838: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.838: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.839: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.846: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 34 lines
+07-11 21:31:07.846: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.846: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.849: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 14 lines
+07-11 21:31:07.849: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.849: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.859: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 54 lines
+07-11 21:31:07.859: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.859: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.860: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 2 lines
+07-11 21:31:07.860: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.862: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.863: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.867: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 15 lines
+07-11 21:31:07.867: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.867: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.867: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 5 lines
+07-11 21:31:07.867: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.868: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.871: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 10 lines
+07-11 21:31:07.871: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.917: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.927: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.927: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.956: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.958: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.973: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.976: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 2 lines
+07-11 21:31:07.977: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.978: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.978: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:07.988: D/OemNetd(693): setPidForPackage: packageName=ru.yandex.taxi, pid=22216, pid=10265
+07-11 21:31:07.988: I/ActivityManager(1632): Start proc 22216:ru.yandex.taxi:passport/u0a265 for content provider {ru.yandex.taxi/com.yandex.passport.internal.provider.InternalProvider} caller=ru.yandex.taxi
+07-11 21:31:07.989: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.029: I/chatty(22013): uid=10265(ru.yandex.taxi) RxIoScheduler-5 identical 1 line
+07-11 21:31:08.056: W/x.taxi:passpor(22216): resources.arsc in APK '/data/app/ru.yandex.taxi-OA4CkixXj12weKoterC_LA==/base.apk' is compressed.
+07-11 21:31:08.075: I/updatesdk(22013): UpdateSDK version is: 2.0.7.302 ,flavor: envrelease ,pkgName: ru.yandex.taxi
+07-11 21:31:08.090: D/LocationManagerService(1632): request 268e792 passive Request[POWER_NONE passive fastest=0] from ru.yandex.taxi(10265 foreground)
+07-11 21:31:08.103: I/ActivityThread(22013): com.yandex.passport.internal.provider.ru.yandex.taxi acquiringCount 2
+07-11 21:31:08.158: W/Looper(22013): Slow Looper main: Activity ru.yandex.taxi/.activity.MainActivity is 472ms late (wall=0ms running=0ms ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] }) because of 4 msg, msg 4 took 465ms (seq=16 late=7ms h=android.app.ActivityThread$H w=159)
+07-11 21:31:08.161: I/updatesdk(22013): UpdateSDK version is: 2.0.7.302 ,flavor: envrelease ,pkgName: ru.yandex.taxi
+07-11 21:31:08.181: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.181: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 1 line
+07-11 21:31:08.191: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.203: D/LocationManagerService(1632): request 40c13cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 foreground)
+07-11 21:31:08.212: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.221: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 2 lines
+07-11 21:31:08.223: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.223: D/LocationManagerService(1632): request 40c13cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 foreground)
+07-11 21:31:08.224: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.227: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.241: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.243: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.244: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.246: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 1 line
+07-11 21:31:08.248: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.250: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.251: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.254: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 2 lines
+07-11 21:31:08.254: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.313: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.315: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 3 lines
+07-11 21:31:08.316: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.326: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.333: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 11 lines
+07-11 21:31:08.334: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.337: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.350: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.371: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 16 lines
+07-11 21:31:08.371: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.371: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.378: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 10 lines
+07-11 21:31:08.378: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.379: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.402: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 5 lines
+07-11 21:31:08.402: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.405: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.405: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.406: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 2 lines
+07-11 21:31:08.406: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.407: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.479: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 129 lines
+07-11 21:31:08.480: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.501: I/SensorService(1632): check list, getPackageName  ru.yandex.taxi.provider.n4
+07-11 21:31:08.503: I/SensorService(1632): check list, getPackageName  ru.yandex.taxi.provider.n4
+07-11 21:31:08.523: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.531: W/.globallaunche(2802): resources.arsc in APK '/data/app/ru.yandex.taxi-OA4CkixXj12weKoterC_LA==/base.apk' is compressed.
+07-11 21:31:08.555: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.556: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.583: I/MiuiKnockGestureService(1632): focus window:ru.yandex.taxi
+07-11 21:31:08.593: W/View(22013): requestLayout() improperly called by ru.yandex.taxi.widget.ShimmeringRobotoTextView{7703d8f V.ED..... ......ID 7,72-221,127 #7f0a0102 app:id/bottom} during layout: running second layout pass
+07-11 21:31:08.597: W/Looper(22013): Slow Looper main: doFrame is 378ms late because of 160 msg, msg 1 took 465ms (seq=16 late=7ms h=android.app.ActivityThread$H w=159), msg 145 took 334ms (seq=160 late=69ms h=android.os.Handler c=ru.yandex.taxi.activity.MainActivity$f)
+07-11 21:31:08.656: I/WifiScanRequestProxy(1632): Scan request from ru.yandex.taxi throttled
+07-11 21:31:08.706: I/Timeline(1632): Timeline: Activity_windows_visible id: ActivityRecord{fbecb17 u0 ru.yandex.taxi/.activity.MainActivity t4406} time:4127576
+07-11 21:31:08.717: I/ActivityTaskManager(1632): Displayed ru.yandex.taxi/.activity.MainActivity: +1s755ms
+07-11 21:31:08.725: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.742: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.746: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 5 lines
+07-11 21:31:08.748: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.749: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.750: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.752: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.754: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.794: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:08.817: W/View(22013): requestLayout() improperly called by ru.yandex.taxi.widget.ShimmeringRobotoTextView{7703d8f V.ED..... ......ID 7,72-221,127 #7f0a0102 app:id/bottom} during layout: running second layout pass
+07-11 21:31:08.877: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 1 line
+07-11 21:31:08.895: I/HMSSDK_Util(22013): Successfully queried cache dir: /data/user_de/0/ru.yandex.taxi/code_cache
+07-11 21:31:08.895: D/RenderScript(22013): Setting cache dir: /data/user_de/0/ru.yandex.taxi/code_cache
+07-11 21:31:08.985: I/updatesdk(22013): UpdateSDK version is: 2.0.7.302 ,flavor: envrelease ,pkgName: ru.yandex.taxi
+07-11 21:31:09.103: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:09.139: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:09.146: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 22 lines
+07-11 21:31:09.146: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:09.192: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:09.204: W/View(22013): requestLayout() improperly called by ru.yandex.taxi.widget.ShimmeringRobotoTextView{7703d8f V.ED..... ......ID 0,72-362,127 #7f0a0102 app:id/bottom} during layout: running second layout pass
+07-11 21:31:09.272: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:09.280: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 22 lines
+07-11 21:31:09.281: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:09.656: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:09.935: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:09.936: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 5 lines
+07-11 21:31:09.937: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:09.937: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:09.937: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:09.995: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 124 lines
+07-11 21:31:09.995: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:10.084: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:10.091: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 22 lines
+07-11 21:31:10.091: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:10.313: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:11.813: W/View(22013): requestLayout() improperly called by ru.yandex.taxi.widget.ShimmeringRobotoTextView{7703d8f V.ED..... ......ID 7,72-221,127 #7f0a0102 app:id/bottom} during layout: running second layout pass
+07-11 21:31:11.888: W/RenderInspector(22013): QueueBuffer time out on ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity, count=1, avg=8 ms, max=8 ms.
+07-11 21:31:14.146: W/View(22013): requestLayout() improperly called by ru.yandex.taxi.widget.ShimmeringRobotoTextView{7703d8f V.ED..... ......ID 0,72-328,127 #7f0a0102 app:id/bottom} during layout: running second layout pass
+07-11 21:31:14.181: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:14.190: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 22 lines
+07-11 21:31:14.190: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:14.635: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:14.639: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 7 lines
+07-11 21:31:14.640: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:14.640: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:14.669: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 53 lines
+07-11 21:31:14.670: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:15.085: W/RenderInspector(22013): QueueBuffer time out on ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity, count=1, avg=18 ms, max=18 ms.
+07-11 21:31:15.115: W/MiuiPerfServiceClient(4077): interceptAndQueuing:22013|ru.yandex.taxi|126|49|unknown|null|ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity|4133628083161|Slow handle traversal|11
+07-11 21:31:15.251: W/View(22013): requestLayout() improperly called by ru.yandex.taxi.widget.ShimmeringRobotoTextView{7703d8f V.ED..... ......ID 7,72-221,127 #7f0a0102 app:id/bottom} during layout: running second layout pass
+07-11 21:31:16.130: W/View(22013): requestLayout() improperly called by ru.yandex.taxi.widget.ShimmeringRobotoTextView{7703d8f V.ED..... ......ID 0,72-328,127 #7f0a0102 app:id/bottom} during layout: running second layout pass
+07-11 21:31:16.163: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:16.171: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 22 lines
+07-11 21:31:16.171: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:16.684: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:16.685: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 3 lines
+07-11 21:31:16.685: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:16.689: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:16.690: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:16.756: W/RenderInspector(22013): QueueBuffer time out on ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity, count=1, avg=8 ms, max=8 ms.
+07-11 21:31:17.342: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:17.403: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 46 lines
+07-11 21:31:17.404: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:17.456: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:17.473: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 26 lines
+07-11 21:31:17.475: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:17.567: W/RenderInspector(22013): QueueBuffer time out on ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity, count=3, avg=9 ms, max=15 ms.
+07-11 21:31:18.010: W/MiuiPerfServiceClient(4077): interceptAndQueuing:22013|ru.yandex.taxi|571|118|unknown|null|ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity|4136807433472|Slow main thread|34
+07-11 21:31:19.142: W/MiuiPerfServiceClient(4077): interceptAndQueuing:22013|ru.yandex.taxi|722|30|unknown|null|ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity|4137924643941|Slow issue draw commands|21
+07-11 21:31:20.146: D/LocationManagerService(1632): request 40c13cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 foreground)
+07-11 21:31:20.280: W/RenderInspector(22013): QueueBuffer time out on ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity, count=1, avg=8 ms, max=8 ms.
+07-11 21:31:20.508: W/MiuiPerfServiceClient(4077): interceptAndQueuing:22013|ru.yandex.taxi|1162|30|unknown|null|ru.yandex.taxi/ru.yandex.taxi.activity.MainActivity|4139230398055|Slow issue draw commands|48
+07-11 21:31:20.926: W/View(22013): requestLayout() improperly called by ru.yandex.taxi.widget.ShimmeringRobotoTextView{7703d8f V.ED..... ......ID 7,72-221,127 #7f0a0102 app:id/bottom} during layout: running second layout pass
+07-11 21:31:20.930: D/LocationManagerService(1632): request 40c13cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 foreground)
+07-11 21:31:21.585: D/LocationManagerService(1632): request 40c13cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 foreground)
+07-11 21:31:22.412: D/LocationManagerService(1632): request 40c13cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 foreground)
+07-11 21:31:23.073: D/LocationManagerService(1632): request 40c13cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 foreground)
+07-11 21:31:23.922: W/View(22013): requestLayout() improperly called by ru.yandex.taxi.widget.ShimmeringRobotoTextView{7703d8f V.ED..... ......ID 0,72-327,127 #7f0a0102 app:id/bottom} during layout: running second layout pass
+07-11 21:31:23.931: D/LocationManagerService(1632): request 40c13cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 foreground)
+07-11 21:31:23.940: D/LocationManagerService(1632): request 40c13cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 foreground)
+07-11 21:31:23.966: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:23.976: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 18 lines
+07-11 21:31:23.977: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:23.977: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:23.978: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 2 lines
+07-11 21:31:23.978: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:23.989: D/LocationManagerService(1632): request 40c13cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 foreground)
+07-11 21:31:24.290: D/LocationManagerService(1632): request 40c13cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 foreground)
+07-11 21:31:24.302: D/LocationManagerService(1632): request 40c13cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 foreground)
+07-11 21:31:24.577: D/LocationManagerService(1632): request 40c13cb passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.taxi(10265 foreground)
+07-11 21:31:24.585: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace
+07-11 21:31:24.586: I/chatty(22013): uid=10265(ru.yandex.taxi) identical 5 lines
+07-11 21:31:24.587: D/ForceDarkHelper(22013): updateByCheckExcludeList: pkg: ru.yandex.taxi activity: ru.yandex.taxi.activity.MainActivity@cbdaace

@@ -1,0 +1,488 @@
+07-11 21:32:55.089: D/WindowProcessUtils(1632): remove task: TaskRecord{d4c624c #4407 A=ru.yandex.uber U=0 StackId=23 sz=1}
+07-11 21:32:55.115: I/ProcessManager(1632): SwipeUpClean: kill ru.yandex.uber Adj=905 State=20
+07-11 21:32:55.118: I/ActivityManager(1632): Killing 22756:ru.yandex.uber/u0a251 (adj 905): SwipeUpClean
+07-11 21:32:55.123: I/ProcessManager(1632): SwipeUpClean: kill ru.yandex.uber:Metrica Adj=905 State=20
+07-11 21:32:55.124: I/ActivityManager(1632): Killing 22823:ru.yandex.uber:Metrica/u0a251 (adj 905): SwipeUpClean
+07-11 21:32:55.126: I/ProcessManager(1632): SwipeUpClean: kill ru.yandex.uber:passport Adj=915 State=20
+07-11 21:32:55.127: I/ActivityManager(1632): Killing 22942:ru.yandex.uber:passport/u0a251 (adj 915): SwipeUpClean
+07-11 21:32:55.171: I/AutoStartManagerService(1632): MIUILOG- Reject RestartService packageName :ru.yandex.uber uid : 10251
+07-11 21:32:55.374: W/InputDispatcher(1632): channel 'fafc5ae ru.yandex.uber/ru.yandex.taxi.activity.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+07-11 21:32:55.374: E/InputDispatcher(1632): channel 'fafc5ae ru.yandex.uber/ru.yandex.taxi.activity.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+07-11 21:32:55.377: I/WindowManager(1632): WIN DEATH: Window{fafc5ae u0 ru.yandex.uber/ru.yandex.taxi.activity.MainActivity}
+07-11 21:32:55.377: W/InputDispatcher(1632): Attempted to unregister already unregistered input channel 'fafc5ae ru.yandex.uber/ru.yandex.taxi.activity.MainActivity (server)'
+07-11 21:33:06.854: I/ActivityTaskManager(1632): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=ru.yandex.uber/ru.yandex.taxi.activity.StartActivity bnds=[654,1493][822,1661] (has extras)} from uid 10077
+07-11 21:33:06.941: D/OemNetd(693): setPidForPackage: packageName=ru.yandex.uber, pid=23387, pid=10251
+07-11 21:33:06.941: I/ActivityManager(1632): Start proc 23387:ru.yandex.uber/u0a251 for activity {ru.yandex.uber/ru.yandex.taxi.activity.StartActivity} caller=com.mi.android.globallauncher
+07-11 21:33:06.966: I/ProcessMonitor(4466): onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='ru.yandex.uber', mForegroundUid=10251, mForegroundPid=23387, mLastForegroundPackageName='com.mi.android.globallauncher', mLastForegroundUid=10077, mLastForegroundPid=2802, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+07-11 21:33:06.966: I/GameBoosterService(4466): onForegroundInfoChanged: Cur=ru.yandex.uber	 last=com.mi.android.globallauncher
+07-11 21:33:06.966: I/GST(10863): forePkg: ru.yandex.uber, preForePkg: com.mi.android.globallauncher
+07-11 21:33:06.976: D/GameBoosterService(4466): onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='ru.yandex.uber', mForegroundUid=10251, mForegroundPid=23387, mLastForegroundPackageName='com.mi.android.globallauncher', mLastForegroundUid=10077, mLastForegroundPid=2802, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+07-11 21:33:07.027: W/ru.yandex.uber(23387): resources.arsc in APK '/data/app/ru.yandex.uber-L9gitQ_C2cmyCZPR2-SZdA==/base.apk' is compressed.
+07-11 21:33:07.057: W/ru.yandex.uber(23387): type=1400 audit(0.0:8455): avc: granted { execute } for path="/data/data/ru.yandex.uber/cache/knAAljuHvCeeznBGbsU.so" dev="sda16" ino=241731 scontext=u:r:untrusted_app:s0:c251,c256,c512,c768 tcontext=u:object_r:app_data_file:s0:c251,c256,c512,c768 tclass=file
+07-11 21:33:07.405: D/PackageManager.DexOptimizer(1632): Running dexopt on: /data/user/0/ru.yandex.uber/app_working_23387/reiXGXksNARfrPsVXWljVZO.23387.dex pkg=ru.yandex.uber isa=[arm64] reason=bg-dexopt dexoptFlags=boot_complete,public,secondary,storage_ce,enable_hidden_api_checks target-filter=quicken class-loader-context=PCL[]
+07-11 21:33:07.435: D/installd(1229): Processing secondary dex path /data/user/0/ru.yandex.uber/app_working_23387/reiXGXksNARfrPsVXWljVZO.23387.dex
+07-11 21:33:07.440: D/installd(1229): Processed secondary dex file /data/user/0/ru.yandex.uber/app_working_23387/reiXGXksNARfrPsVXWljVZO.23387.dex result=205
+07-11 21:33:07.441: D/PackageManager.DexOptimizer(1632): Running dexopt on: /data/user/0/ru.yandex.uber/app_working_23387/VbnRKgRECTGMyUlUzHdSaDY.23387.dex pkg=ru.yandex.uber isa=[arm64] reason=bg-dexopt dexoptFlags=boot_complete,public,secondary,storage_ce,enable_hidden_api_checks target-filter=quicken class-loader-context=PCL[/data/user/0/ru.yandex.uber/app_working_23387/reiXGXksNARfrPsVXWljVZO.23387.dex]
+07-11 21:33:07.443: D/installd(1229): Getting dex paths for context PCL[/data/user/0/ru.yandex.uber/app_working_23387/reiXGXksNARfrPsVXWljVZO.23387.dex]
+07-11 21:33:07.480: D/installd(1229): Processing secondary dex path /data/user/0/ru.yandex.uber/app_working_23387/VbnRKgRECTGMyUlUzHdSaDY.23387.dex
+07-11 21:33:07.486: D/installd(1229): Processed secondary dex file /data/user/0/ru.yandex.uber/app_working_23387/VbnRKgRECTGMyUlUzHdSaDY.23387.dex result=205
+07-11 21:33:07.487: D/PackageManager.DexOptimizer(1632): Running dexopt on: /data/user/0/ru.yandex.uber/app_working_23387/lDqqHUKCgDeNfQevJDfeuEv.23387.dex pkg=ru.yandex.uber isa=[arm64] reason=bg-dexopt dexoptFlags=boot_complete,public,secondary,storage_ce,enable_hidden_api_checks target-filter=quicken class-loader-context=PCL[/data/user/0/ru.yandex.uber/app_working_23387/reiXGXksNARfrPsVXWljVZO.23387.dex:/data/user/0/ru.yandex.uber/app_working_23387/VbnRKgRECTGMyUlUzHdSaDY.23387.dex]
+07-11 21:33:07.488: D/installd(1229): Getting dex paths for context PCL[/data/user/0/ru.yandex.uber/app_working_23387/reiXGXksNARfrPsVXWljVZO.23387.dex:/data/user/0/ru.yandex.uber/app_working_23387/VbnRKgRECTGMyUlUzHdSaDY.23387.dex]
+07-11 21:33:07.492: I/FA(23387):   adb shell setprop debug.firebase.analytics.app ru.yandex.uber
+07-11 21:33:07.524: D/installd(1229): Processing secondary dex path /data/user/0/ru.yandex.uber/app_working_23387/lDqqHUKCgDeNfQevJDfeuEv.23387.dex
+07-11 21:33:07.525: D/OemNetd(693): setPidForPackage: packageName=ru.yandex.uber, pid=23448, pid=10251
+07-11 21:33:07.525: I/ActivityManager(1632): Start proc 23448:ru.yandex.uber:Metrica/u0a251 for service {ru.yandex.uber/com.yandex.metrica.MetricaService} caller=ru.yandex.uber
+07-11 21:33:07.528: D/installd(1229): Processed secondary dex file /data/user/0/ru.yandex.uber/app_working_23387/lDqqHUKCgDeNfQevJDfeuEv.23387.dex result=205
+07-11 21:33:07.554: I/ActivityTaskManager(1632): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=ru.yandex.uber/ru.yandex.taxi.activity.MainActivity bnds=[654,1493][822,1661] (has extras)} from uid 10251
+07-11 21:33:07.562: I/ActivityTaskManager(1632): The Process ru.yandex.uber Already Exists in BG. So sending its PID: 23387
+07-11 21:33:07.574: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.StartActivity@e0b74e2
+07-11 21:33:07.574: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.StartActivity@e0b74e2
+07-11 21:33:07.579: W/Looper(23387): Slow Looper main: Activity ru.yandex.uber/ru.yandex.taxi.activity.StartActivity is 502ms late (wall=108ms running=0ms ClientTransaction{ callbacks=[android.app.servertransaction.LaunchActivityItem] lifecycleRequest=android.app.servertransaction.ResumeActivityItem }) because of 2 msg, msg 2 took 500ms (seq=2 late=8ms h=android.app.ActivityThread$H w=110)
+07-11 21:33:07.579: W/Looper(23387): Slow Looper main: Activity ru.yandex.uber/ru.yandex.taxi.activity.StartActivity is 609ms late (wall=0ms running=0ms ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] }) because of 3 msg, msg 2 took 500ms (seq=2 late=8ms h=android.app.ActivityThread$H w=110), msg 3 took 108ms (seq=3 late=502ms h=android.app.ActivityThread$H w=159)
+07-11 21:33:07.583: I/ActivityTaskManager(1632): The Process ru.yandex.uber Already Exists in BG. So sending its PID: 23387
+07-11 21:33:07.640: W/ex.uber:Metric(23448): resources.arsc in APK '/data/app/ru.yandex.uber-L9gitQ_C2cmyCZPR2-SZdA==/base.apk' is compressed.
+07-11 21:33:07.686: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.686: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.687: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.689: I/chatty(23387): uid=10251(ru.yandex.uber) identical 4 lines
+07-11 21:33:07.689: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.691: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.705: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.705: I/chatty(23387): uid=10251(ru.yandex.uber) identical 2 lines
+07-11 21:33:07.716: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.716: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.721: I/chatty(23387): uid=10251(ru.yandex.uber) identical 19 lines
+07-11 21:33:07.721: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.722: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.732: I/chatty(23387): uid=10251(ru.yandex.uber) identical 24 lines
+07-11 21:33:07.733: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.733: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.735: I/chatty(23387): uid=10251(ru.yandex.uber) identical 11 lines
+07-11 21:33:07.735: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.736: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.742: I/chatty(23387): uid=10251(ru.yandex.uber) identical 34 lines
+07-11 21:33:07.743: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.743: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.743: I/chatty(23387): uid=10251(ru.yandex.uber) identical 4 lines
+07-11 21:33:07.744: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.744: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.746: I/chatty(23387): uid=10251(ru.yandex.uber) identical 12 lines
+07-11 21:33:07.746: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.747: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.751: I/chatty(23387): uid=10251(ru.yandex.uber) identical 21 lines
+07-11 21:33:07.751: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.752: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.752: I/chatty(23387): uid=10251(ru.yandex.uber) identical 3 lines
+07-11 21:33:07.752: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.753: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.760: I/chatty(23387): uid=10251(ru.yandex.uber) identical 38 lines
+07-11 21:33:07.760: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.760: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.761: I/chatty(23387): uid=10251(ru.yandex.uber) identical 3 lines
+07-11 21:33:07.761: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.761: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.761: I/chatty(23387): uid=10251(ru.yandex.uber) identical 4 lines
+07-11 21:33:07.762: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.762: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.768: I/chatty(23387): uid=10251(ru.yandex.uber) identical 31 lines
+07-11 21:33:07.768: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.768: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.769: I/chatty(23387): uid=10251(ru.yandex.uber) identical 3 lines
+07-11 21:33:07.769: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.769: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.778: I/chatty(23387): uid=10251(ru.yandex.uber) identical 30 lines
+07-11 21:33:07.778: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.778: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.780: I/chatty(23387): uid=10251(ru.yandex.uber) identical 9 lines
+07-11 21:33:07.780: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.781: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.781: I/chatty(23387): uid=10251(ru.yandex.uber) identical 4 lines
+07-11 21:33:07.782: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.782: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.782: I/chatty(23387): uid=10251(ru.yandex.uber) identical 3 lines
+07-11 21:33:07.782: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.793: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.796: I/chatty(23387): uid=10251(ru.yandex.uber) identical 1 line
+07-11 21:33:07.796: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.832: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.834: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.846: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.848: I/chatty(23387): uid=10251(ru.yandex.uber) identical 4 lines
+07-11 21:33:07.848: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.851: D/OemNetd(693): setPidForPackage: packageName=ru.yandex.uber, pid=23565, pid=10251
+07-11 21:33:07.851: I/ActivityManager(1632): Start proc 23565:ru.yandex.uber:passport/u0a251 for content provider {ru.yandex.uber/com.yandex.passport.internal.provider.InternalProvider} caller=ru.yandex.uber
+07-11 21:33:07.854: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.892: D/LocationManagerService(1632): request 29b08ff passive Request[POWER_NONE passive fastest=0] from ru.yandex.uber(10251 foreground)
+07-11 21:33:07.908: I/chatty(23387): uid=10251(ru.yandex.uber) RxIoScheduler-5 identical 1 line
+07-11 21:33:07.929: W/Looper(23387): Slow Looper main: Activity ru.yandex.uber/ru.yandex.taxi.activity.MainActivity is 343ms late (wall=0ms running=0ms ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] }) because of 4 msg, msg 4 took 336ms (seq=17 late=7ms h=android.app.ActivityThread$H w=159)
+07-11 21:33:07.945: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:07.956: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:07.959: W/x.uber:passpor(23565): resources.arsc in APK '/data/app/ru.yandex.uber-L9gitQ_C2cmyCZPR2-SZdA==/base.apk' is compressed.
+07-11 21:33:07.960: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.965: I/updatesdk(23387): UpdateSDK version is: 2.0.7.302 ,flavor: envrelease ,pkgName: ru.yandex.uber
+07-11 21:33:07.980: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.987: I/chatty(23387): uid=10251(ru.yandex.uber) identical 4 lines
+07-11 21:33:07.990: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.997: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:07.998: I/chatty(23387): uid=10251(ru.yandex.uber) identical 1 line
+07-11 21:33:07.999: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.006: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.008: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.011: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.012: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.013: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.014: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.014: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.019: I/updatesdk(23387): UpdateSDK version is: 2.0.7.302 ,flavor: envrelease ,pkgName: ru.yandex.uber
+07-11 21:33:08.047: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.060: I/chatty(23387): uid=10251(ru.yandex.uber) identical 5 lines
+07-11 21:33:08.060: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.061: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.064: I/chatty(23387): uid=10251(ru.yandex.uber) identical 4 lines
+07-11 21:33:08.064: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.070: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.090: I/chatty(23387): uid=10251(ru.yandex.uber) identical 12 lines
+07-11 21:33:08.091: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.093: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.102: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.105: I/chatty(23387): uid=10251(ru.yandex.uber) identical 6 lines
+07-11 21:33:08.106: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.107: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.109: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.109: I/chatty(23387): uid=10251(ru.yandex.uber) identical 1 line
+07-11 21:33:08.109: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.110: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.111: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.113: I/chatty(23387): uid=10251(ru.yandex.uber) identical 2 lines
+07-11 21:33:08.115: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.116: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.118: I/chatty(23387): uid=10251(ru.yandex.uber) identical 3 lines
+07-11 21:33:08.118: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.119: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.120: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.120: I/chatty(23387): uid=10251(ru.yandex.uber) identical 1 line
+07-11 21:33:08.120: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.121: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.124: I/chatty(23387): uid=10251(ru.yandex.uber) identical 4 lines
+07-11 21:33:08.124: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.124: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.125: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.141: I/chatty(23387): uid=10251(ru.yandex.uber) identical 23 lines
+07-11 21:33:08.143: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.188: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:08.222: I/MiuiKnockGestureService(1632): focus window:ru.yandex.uber
+07-11 21:33:08.335: I/Timeline(1632): Timeline: Activity_windows_visible id: ActivityRecord{109de7b u0 ru.yandex.uber/ru.yandex.taxi.activity.MainActivity t4408} time:4247206
+07-11 21:33:08.356: I/ActivityTaskManager(1632): Displayed ru.yandex.uber/ru.yandex.taxi.activity.MainActivity: +1s481ms
+07-11 21:33:08.861: I/updatesdk(23387): UpdateSDK version is: 2.0.7.302 ,flavor: envrelease ,pkgName: ru.yandex.uber
+07-11 21:33:09.033: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:09.038: I/chatty(23387): uid=10251(ru.yandex.uber) identical 7 lines
+07-11 21:33:09.039: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:09.040: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:09.041: I/chatty(23387): uid=10251(ru.yandex.uber) identical 1 line
+07-11 21:33:09.041: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:11.636: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:11.710: I/chatty(23387): uid=10251(ru.yandex.uber) identical 123 lines
+07-11 21:33:11.710: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:11.770: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:11.774: I/chatty(23387): uid=10251(ru.yandex.uber) identical 12 lines
+07-11 21:33:11.775: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:11.778: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:11.813: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:11.816: I/chatty(23387): uid=10251(ru.yandex.uber) identical 10 lines
+07-11 21:33:11.817: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:11.817: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:11.827: I/chatty(23387): uid=10251(ru.yandex.uber) identical 12 lines
+07-11 21:33:11.828: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:11.831: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:11.832: I/chatty(23387): uid=10251(ru.yandex.uber) identical 8 lines
+07-11 21:33:11.833: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:11.833: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:11.834: I/chatty(23387): uid=10251(ru.yandex.uber) identical 1 line
+07-11 21:33:11.834: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:11.846: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:11.849: I/chatty(23387): uid=10251(ru.yandex.uber) identical 11 lines
+07-11 21:33:11.849: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:12.114: I/chatty(23387): uid=10251(ru.yandex.uber) identical 2 lines
+07-11 21:33:12.272: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:12.276: I/chatty(23387): uid=10251(ru.yandex.uber) identical 11 lines
+07-11 21:33:12.276: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:13.663: W/MiuiPerfServiceClient(4077): interceptAndQueuing:23387|ru.yandex.uber|306|47|unknown|null|ru.yandex.uber/ru.yandex.taxi.activity.MainActivity|4250906999991|Slow main thread|15
+07-11 21:33:15.396: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:15.557: I/chatty(23387): uid=10251(ru.yandex.uber) identical 176 lines
+07-11 21:33:15.558: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:15.558: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:15.561: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:15.568: I/chatty(23387): uid=10251(ru.yandex.uber) identical 24 lines
+07-11 21:33:15.569: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:16.420: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:16.424: I/chatty(23387): uid=10251(ru.yandex.uber) identical 11 lines
+07-11 21:33:16.424: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:16.582: W/MiuiPerfServiceClient(4077): interceptAndQueuing:23387|ru.yandex.uber|93|43|unknown|null|ru.yandex.uber/ru.yandex.taxi.activity.MainActivity|4254452500250|Slow main thread|2
+07-11 21:33:17.715: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:17.780: I/chatty(23387): uid=10251(ru.yandex.uber) identical 123 lines
+07-11 21:33:17.780: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:17.832: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:17.877: I/chatty(23387): uid=10251(ru.yandex.uber) identical 53 lines
+07-11 21:33:17.881: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:17.882: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:17.891: I/chatty(23387): uid=10251(ru.yandex.uber) identical 23 lines
+07-11 21:33:17.892: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:17.926: W/MiuiPerfServiceClient(4077): interceptAndQueuing:23387|ru.yandex.uber|88|32|unknown|null|ru.yandex.uber/ru.yandex.taxi.activity.MainActivity|4255647903583|Slow main thread|5
+07-11 21:33:17.927: W/MiuiPerfServiceClient(4077): interceptAndQueuing:23387|ru.yandex.uber|117|48|unknown|null|ru.yandex.uber/ru.yandex.taxi.activity.MainActivity|4256794301447|Slow main thread|4
+07-11 21:33:18.014: I/chatty(23387): uid=10251(ru.yandex.uber) identical 1 line
+07-11 21:33:18.018: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:18.611: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:18.625: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:18.636: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:18.648: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:18.649: I/chatty(23387): uid=10251(ru.yandex.uber) identical 4 lines
+07-11 21:33:18.649: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:18.649: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:18.649: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:18.651: I/chatty(23387): uid=10251(ru.yandex.uber) identical 5 lines
+07-11 21:33:18.651: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@122d155
+07-11 21:33:18.702: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:18.873: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:19.304: E/VibratorService(1632): cancel ru.yandex.uber
+07-11 21:33:19.304: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:19.314: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:19.331: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:19.334: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:19.343: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:19.353: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:19.357: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:19.366: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:19.370: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:19.376: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:19.391: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:19.395: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:19.401: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:19.412: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:19.417: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:19.422: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:19.437: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:19.454: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:19.892: E/VibratorService(1632): cancel ru.yandex.uber
+07-11 21:33:19.895: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:19.936: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:19.943: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:19.948: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:19.952: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:19.955: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:19.966: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:19.969: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:19.974: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:19.988: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:19.993: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:20.000: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:20.016: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:20.022: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:20.031: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:20.034: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:20.044: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:20.055: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:20.066: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:20.594: E/VibratorService(1632): cancel ru.yandex.uber
+07-11 21:33:20.597: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:20.600: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:21.662: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:21.673: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:22.689: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:22.711: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:22.717: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:22.926: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:22.937: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:23.069: I/chatty(23387): uid=10251(ru.yandex.uber) identical 2 lines
+07-11 21:33:23.490: I/WifiScanRequestProxy(1632): Scan request from ru.yandex.uber throttled
+07-11 21:33:23.592: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:23.600: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:23.823: I/ProcessMonitor(4466): onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.mi.android.globallauncher', mForegroundUid=10077, mForegroundPid=2802, mLastForegroundPackageName='ru.yandex.uber', mLastForegroundUid=10251, mLastForegroundPid=23387, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+07-11 21:33:23.823: I/GameBoosterService(4466): onForegroundInfoChanged: Cur=com.mi.android.globallauncher	 last=ru.yandex.uber
+07-11 21:33:23.824: I/GST(10863): forePkg: com.mi.android.globallauncher, preForePkg: ru.yandex.uber
+07-11 21:33:23.826: D/GameBoosterService(4466): onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.mi.android.globallauncher', mForegroundUid=10077, mForegroundPid=2802, mLastForegroundPackageName='ru.yandex.uber', mLastForegroundUid=10251, mLastForegroundPid=23387, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+07-11 21:33:24.292: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 background)
+07-11 21:33:26.501: I/ProcessMonitor(4466): onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='ru.yandex.uber', mForegroundUid=10251, mForegroundPid=23387, mLastForegroundPackageName='com.android.systemui', mLastForegroundUid=1000, mLastForegroundPid=2378, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+07-11 21:33:26.501: I/GameBoosterService(4466): onForegroundInfoChanged: Cur=ru.yandex.uber	 last=com.android.systemui
+07-11 21:33:26.501: I/GST(10863): forePkg: ru.yandex.uber, preForePkg: com.android.systemui
+07-11 21:33:26.502: I/DisplayFrameSetting(5644): setScreenEffect pkg=ru.yandex.uber fps=120 cookie=244
+07-11 21:33:26.515: D/GameBoosterService(4466): onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='ru.yandex.uber', mForegroundUid=10251, mForegroundPid=23387, mLastForegroundPackageName='com.android.systemui', mLastForegroundUid=1000, mLastForegroundPid=2378, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+07-11 21:33:26.577: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:26.581: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:26.584: D/LocationManagerService(1632): request 7126abf passive Request[POWER_NONE passive fastest=0] from ru.yandex.uber(10251 foreground)
+07-11 21:33:26.586: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:26.591: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:26.682: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:26.692: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:26.707: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:26.726: I/MiuiKnockGestureService(1632): focus window:ru.yandex.uber
+07-11 21:33:26.766: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:26.773: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:26.786: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:26.831: I/WifiScanRequestProxy(1632): Scan request from ru.yandex.uber throttled
+07-11 21:33:26.870: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:26.880: I/Timeline(1632): Timeline: Activity_windows_visible id: ActivityRecord{109de7b u0 ru.yandex.uber/ru.yandex.taxi.activity.MainActivity t4408} time:4265750
+07-11 21:33:26.901: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:27.284: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:27.299: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:27.372: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:27.583: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:27.612: D/RecentsImpl(2378): startRecentsActivity runningTask: ComponentInfo{ru.yandex.uber/ru.yandex.taxi.activity.MainActivity}
+07-11 21:33:27.654: I/ProcessMonitor(4466): onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.android.systemui', mForegroundUid=1000, mForegroundPid=2378, mLastForegroundPackageName='ru.yandex.uber', mLastForegroundUid=10251, mLastForegroundPid=23387, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+07-11 21:33:27.655: I/GameBoosterService(4466): onForegroundInfoChanged: Cur=com.android.systemui	 last=ru.yandex.uber
+07-11 21:33:27.655: I/GST(10863): forePkg: com.android.systemui, preForePkg: ru.yandex.uber
+07-11 21:33:27.656: D/GameBoosterService(4466): onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.android.systemui', mForegroundUid=1000, mForegroundPid=2378, mLastForegroundPackageName='ru.yandex.uber', mLastForegroundUid=10251, mLastForegroundPid=23387, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+07-11 21:33:27.697: I/chatty(23387): uid=10251(ru.yandex.uber) identical 1 line
+07-11 21:33:27.872: W/RenderInspector(23387): QueueBuffer time out on ru.yandex.uber/ru.yandex.taxi.activity.MainActivity, count=3, avg=11 ms, max=13 ms.
+07-11 21:33:28.141: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 background)
+07-11 21:33:28.739: I/GST(10863): forePkg: ru.yandex.uber, preForePkg: com.android.systemui
+07-11 21:33:28.739: I/DisplayFrameSetting(5644): setScreenEffect pkg=ru.yandex.uber fps=120 cookie=244
+07-11 21:33:28.743: I/ProcessMonitor(4466): onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='ru.yandex.uber', mForegroundUid=10251, mForegroundPid=23387, mLastForegroundPackageName='com.android.systemui', mLastForegroundUid=1000, mLastForegroundPid=2378, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+07-11 21:33:28.743: I/GameBoosterService(4466): onForegroundInfoChanged: Cur=ru.yandex.uber	 last=com.android.systemui
+07-11 21:33:28.748: D/GameBoosterService(4466): onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='ru.yandex.uber', mForegroundUid=10251, mForegroundPid=23387, mLastForegroundPackageName='com.android.systemui', mLastForegroundUid=1000, mLastForegroundPid=2378, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+07-11 21:33:28.771: D/LocationManagerService(1632): request 8a7748a passive Request[POWER_NONE passive fastest=0] from ru.yandex.uber(10251 foreground)
+07-11 21:33:28.833: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:28.844: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:28.853: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:28.860: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:28.931: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:28.939: I/MiuiKnockGestureService(1632): focus window:ru.yandex.uber
+07-11 21:33:28.951: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:28.961: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:28.965: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:28.981: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:29.055: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:29.061: I/WifiScanRequestProxy(1632): Scan request from ru.yandex.uber throttled
+07-11 21:33:29.094: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:29.153: I/Timeline(1632): Timeline: Activity_windows_visible id: ActivityRecord{109de7b u0 ru.yandex.uber/ru.yandex.taxi.activity.MainActivity t4408} time:4268024
+07-11 21:33:29.158: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:29.431: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:29.440: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:29.462: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:29.469: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:29.475: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:29.523: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:29.723: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:29.810: I/ProcessMonitor(4466): onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.mi.android.globallauncher', mForegroundUid=10077, mForegroundPid=2802, mLastForegroundPackageName='ru.yandex.uber', mLastForegroundUid=10251, mLastForegroundPid=23387, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+07-11 21:33:29.810: I/GameBoosterService(4466): onForegroundInfoChanged: Cur=com.mi.android.globallauncher	 last=ru.yandex.uber
+07-11 21:33:29.811: I/GST(10863): forePkg: com.mi.android.globallauncher, preForePkg: ru.yandex.uber
+07-11 21:33:29.813: D/GameBoosterService(4466): onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.mi.android.globallauncher', mForegroundUid=10077, mForegroundPid=2802, mLastForegroundPackageName='ru.yandex.uber', mLastForegroundUid=10251, mLastForegroundPid=23387, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+07-11 21:33:30.256: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 background)
+07-11 21:33:31.879: I/ActivityTaskManager(1632): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10300000 cmp=ru.yandex.uber/ru.yandex.taxi.activity.StartActivity (has extras)} from uid 10251
+07-11 21:33:31.904: I/ActivityTaskManager(1632): The Process ru.yandex.uber Already Exists in BG. So sending its PID: 23387
+07-11 21:33:31.916: I/ProcessMonitor(4466): onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='ru.yandex.uber', mForegroundUid=10251, mForegroundPid=23387, mLastForegroundPackageName='com.android.systemui', mLastForegroundUid=1000, mLastForegroundPid=2378, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+07-11 21:33:31.916: I/GameBoosterService(4466): onForegroundInfoChanged: Cur=ru.yandex.uber	 last=com.android.systemui
+07-11 21:33:31.916: I/DisplayFrameSetting(5644): setScreenEffect pkg=ru.yandex.uber fps=120 cookie=244
+07-11 21:33:31.916: I/GST(10863): forePkg: ru.yandex.uber, preForePkg: com.android.systemui
+07-11 21:33:31.932: D/GameBoosterService(4466): onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='ru.yandex.uber', mForegroundUid=10251, mForegroundPid=23387, mLastForegroundPackageName='com.android.systemui', mLastForegroundUid=1000, mLastForegroundPid=2378, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+07-11 21:33:31.964: I/ActivityTaskManager(1632): START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10300000 cmp=ru.yandex.uber/ru.yandex.taxi.activity.MainActivity (has extras)} from uid 10251
+07-11 21:33:31.981: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.StartActivity@d763c66
+07-11 21:33:31.986: I/ActivityTaskManager(1632): The Process ru.yandex.uber Already Exists in BG. So sending its PID: 23387
+07-11 21:33:31.981: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.StartActivity@d763c66
+07-11 21:33:32.007: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.012: I/chatty(23387): uid=10251(ru.yandex.uber) identical 6 lines
+07-11 21:33:32.013: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.020: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.021: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.026: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.087: I/chatty(23387): uid=10251(ru.yandex.uber) identical 236 lines
+07-11 21:33:32.088: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.088: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.123: I/chatty(23387): uid=10251(ru.yandex.uber) identical 56 lines
+07-11 21:33:32.124: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.128: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.130: I/chatty(23387): uid=10251(ru.yandex.uber) identical 4 lines
+07-11 21:33:32.130: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.133: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.136: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.139: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.165: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.169: D/LocationManagerService(1632): request 44cbe66 passive Request[POWER_NONE passive fastest=0] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.172: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.179: I/updatesdk(23387): UpdateSDK version is: 2.0.7.302 ,flavor: envrelease ,pkgName: ru.yandex.uber
+07-11 21:33:32.188: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.195: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.198: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.205: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.214: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.215: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.220: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.222: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.226: I/chatty(23387): uid=10251(ru.yandex.uber) identical 3 lines
+07-11 21:33:32.228: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.230: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.233: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.234: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.237: I/chatty(23387): uid=10251(ru.yandex.uber) identical 5 lines
+07-11 21:33:32.237: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.240: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.249: I/updatesdk(23387): UpdateSDK version is: 2.0.7.302 ,flavor: envrelease ,pkgName: ru.yandex.uber
+07-11 21:33:32.260: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.261: I/chatty(23387): uid=10251(ru.yandex.uber) identical 3 lines
+07-11 21:33:32.262: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.265: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.270: I/chatty(23387): uid=10251(ru.yandex.uber) identical 16 lines
+07-11 21:33:32.271: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.274: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.275: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.282: I/chatty(23387): uid=10251(ru.yandex.uber) identical 19 lines
+07-11 21:33:32.283: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.284: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.284: I/chatty(23387): uid=10251(ru.yandex.uber) identical 1 line
+07-11 21:33:32.284: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.284: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.285: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.287: I/chatty(23387): uid=10251(ru.yandex.uber) identical 9 lines
+07-11 21:33:32.287: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.288: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.288: I/chatty(23387): uid=10251(ru.yandex.uber) identical 1 line
+07-11 21:33:32.288: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.288: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.288: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.293: I/chatty(23387): uid=10251(ru.yandex.uber) identical 7 lines
+07-11 21:33:32.293: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.293: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.293: I/chatty(23387): uid=10251(ru.yandex.uber) identical 1 line
+07-11 21:33:32.295: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.295: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.304: I/chatty(23387): uid=10251(ru.yandex.uber) identical 9 lines
+07-11 21:33:32.305: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.305: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.306: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.317: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.333: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.337: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.348: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:32.370: I/MiuiKnockGestureService(1632): focus window:ru.yandex.uber
+07-11 21:33:32.394: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.408: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.484: I/WifiScanRequestProxy(1632): Scan request from ru.yandex.uber throttled
+07-11 21:33:32.516: I/Timeline(1632): Timeline: Activity_windows_visible id: ActivityRecord{8d767c7 u0 ru.yandex.uber/ru.yandex.taxi.activity.MainActivity t4408} time:4271387
+07-11 21:33:32.551: I/ActivityTaskManager(1632): Displayed ru.yandex.uber/ru.yandex.taxi.activity.MainActivity: +636ms
+07-11 21:33:32.631: I/updatesdk(23387): UpdateSDK version is: 2.0.7.302 ,flavor: envrelease ,pkgName: ru.yandex.uber
+07-11 21:33:32.705: E/ActivityManager(1632):   102% 23387/ru.yandex.uber: 81% user + 21% kernel / faults: 94720 minor 1 major
+07-11 21:33:32.705: E/ActivityManager(1632):   15% 23448/ru.yandex.uber:Metrica: 10% user + 5.4% kernel / faults: 8734 minor
+07-11 21:33:32.705: E/ActivityManager(1632):   0.6% 23565/ru.yandex.uber:passport: 0.6% user + 0% kernel / faults: 645 minor
+07-11 21:33:32.729: W/RenderInspector(23387): QueueBuffer time out on ru.yandex.uber/ru.yandex.taxi.activity.MainActivity, count=1, avg=12 ms, max=12 ms.
+07-11 21:33:32.785: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.819: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.844: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.862: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.875: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.886: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.897: W/RenderInspector(23387): QueueBuffer time out on ru.yandex.uber/ru.yandex.taxi.activity.MainActivity, count=1, avg=8 ms, max=8 ms.
+07-11 21:33:32.928: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.938: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.945: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:32.953: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:33.085: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:33.089: I/chatty(23387): uid=10251(ru.yandex.uber) identical 7 lines
+07-11 21:33:33.090: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:33.091: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:33.091: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:33.091: I/chatty(23387): uid=10251(ru.yandex.uber) identical 1 line
+07-11 21:33:33.092: D/ForceDarkHelper(23387): updateByCheckExcludeList: pkg: ru.yandex.uber activity: ru.yandex.taxi.activity.MainActivity@9085e84
+07-11 21:33:33.210: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:33.236: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:33.617: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:33.732: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
+07-11 21:33:37.306: D/LocationManagerService(1632): request 147f4ce passive Request[POWER_NONE passive fastest=+1s0ms] from ru.yandex.uber(10251 foreground)
